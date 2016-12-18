@@ -50,7 +50,9 @@ ggplot(fig3, aes(Users, Classifications)) +
   theme(plot.title = element_text(hjust = .5))
 ```
 
+<p align='center'>
 <img src="CrowdsourcedScience_files/figure-markdown_github/fig3-1.png" style="display: block; margin: auto;" />
+</p>
 
 Table 1
 =======
@@ -210,7 +212,9 @@ p2 <- mix %>%
 grid.arrange(p1, p2, ncol = 2)
 ```
 
+<p align='center'>
 <img src="CrowdsourcedScience_files/figure-markdown_github/fig4-1.png" style="display: block; margin: auto;" />
+</p>
 
 Figure 5
 ========
@@ -243,7 +247,9 @@ ggplot(case, aes(Percentile)) +
   theme(plot.title = element_text(hjust = .5))
 ```
 
+<p align='center'>
 <img src="CrowdsourcedScience_files/figure-markdown_github/hist-1.png" style="display: block; margin: auto;" />
+</p>
 
 ``` r
 # KS test
@@ -297,7 +303,9 @@ p2 <- camb %>%
 grid.arrange(p1, p2, ncol = 2)
 ```
 
+<p align='center'>
 <img src="CrowdsourcedScience_files/figure-markdown_github/dens-1.png" style="display: block; margin: auto;" />
+</p>
 
 ``` r
 # KS tests
@@ -359,7 +367,9 @@ p2 <- ggplot(fig7, aes(Year, H, fill = Group)) +
 grid.arrange(p1, p2, ncol = 2)
 ```
 
+<p align='center'>
 <img src="CrowdsourcedScience_files/figure-markdown_github/fig7-1.png" style="display: block; margin: auto;" />
+</p>
 
 ``` r
 # KS tests
